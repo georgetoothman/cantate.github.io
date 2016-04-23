@@ -1,0 +1,26 @@
+---  
+layout: post
+title: Why should you know about Github
+category: posts
+---  
+
+There are a number of convincing ways to write software in this day and age. Write a small script, make a mock-up of the page layout, hand code the entire application or use a framework. All these options need version control systems to log changes and prevent code releases from colliding.   
+
+I am not going to review the history of version control systems in this post ( see [`Linus Torvalds`][`Linus Torvalds`] ) but I do want to briefly note the time when developers began to move beyond Git (the most popular version control system to date), by pushing code to the cloud-based version control system that is called Github. That date was [`24 February 2009`][`24 February 2009`].  
+
+So the question I am trying to answer, put forth to me by my ever reasonable housemate Sam, is “Why should you know what Github is?” In order to answer that I think I need to first state that you do not need to understand the “how” of version control systems to get Github (I know, it sounds redundant). I will not be writing about how these systems work, nor is that necessary to understand when you only want to address how important Github is to the field of software development at large.  
+
+Let’s begin by setting up a common analogy. Facebook is the software for friends to connect. The content of their connections are messages, photos and other social media. That should be pretty clear to the 1.59 billion active monthly users of Facebook, but what does that have to do with Github?  
+
+Github is the software for developers to connect, especially to the world wide web.  
+
+The content of their connections is computer code. That computer code is what makes things on the web work. Many different languages of computer code, in fact, [`29 or so`][`29 or so`]. So you should know about Github because it is basically the origin of the web sites you use regularly.  
+
+If you are really interested in getting into the wonders of Github, I recommend this post by Zach Holman. It is a fantastic review of the [product][product]. cc [Confreaks][Confreaks]. Zach, ++ 
+
+---  
+[`Linus Torvalds`]: https://en.wikipedia.org/wiki/Linus_Torvalds
+[product]: https://www.youtube.com/watch?v=qyz3jkOBbQY
+[`29 or so`]: https://github.com/showcases/programming-languages?s=stars
+[`24 February 2009`]: https://en.wikipedia.org/wiki/GitHub
+[Confreaks]: http://confreaks.tv/events/rubyconf2012

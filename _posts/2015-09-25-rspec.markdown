@@ -1,0 +1,71 @@
+---
+layout: post
+title: RSpec Testing
+category: posts
+---
+
+We pushed our model branch and spent a valuable work hour debugging a nil object. So I wrote this post to get a test running for your app to avoid some of the pitfalls of developing without tests.  
+
+Important Mantras  
+*"Write the test code for the code we wish we had."  
+*"Write the code to pass the test."  
+
+**STEP BY STEP GUIDE (Set Up Only)**
+
+1) Gemfile
+    <pre><code>
+      group :test do
+        gem 'awesome_print'
+        gem 'guard-rspec', require: false
+        gem 'simple', require: false
+        gem 'rspec-rails', '~> 3.1'
+        gem 'webmock', '~>'
+      end
+    </code></pre>
+
+2) Bundle
+
+3) rails generate rspec:install
+
+4) spec directory  
+
+  - should mirror the directories of your app directory
+    - files in sub directories should be namespaced such as controllers/users_controller_spec.rb or models/user_spec.rb  
+
+5) Types of testing in order of difficulty
+
+    unit tests
+      business logic
+      typical of Test Driven Development
+
+    integration tests
+      hits the database
+      Stubs & Mocks
+        stub is the isolation of data from external api's
+          blocks external calls
+        mock is a stub that also gets tested
+      tests backend logic
+      libraries, apis, queries
+
+    feature tests (aka acceptance testing)
+      front facing
+      use faker and factorygirl gems
+      typical of Behavior Driven Development
+
+6) RSpec generators
+
+  - rails generate rspec:controller sessions  
+    - creates a directory and a sessions_controller_spec.rb file  
+    - [docs][docs]  
+
+7) Add all the tests
+
+**Pro Tips**  
+    *ROBOCOP, HOUND gems check for syntax consistency*  
+    *GUARD watches your app folder for changes only, will run only the tests that test things that changed*  
+    *SIMPLE COV ensures a certain percentage of your code is test-covered (%80 is the goal)*  
+    *ALPHABATIZE your gemfile*  
+    *RANDOMIZE the order the tests are run in the test configuration*  
+
+---
+[docs]: https://www.relishapp.com/rspec/rspec-rails/docs/generators

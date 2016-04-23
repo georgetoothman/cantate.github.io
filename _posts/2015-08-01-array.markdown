@@ -1,0 +1,29 @@
+---
+layout: post
+title: Index Iteration, Part I 
+category: posts
+---
+
+The following code shows how to create an index on an array. 
+
+<pre><code>
+
+    ♥ irb
+    2.2.0 :001 > katz_deli = []
+     => [] 
+    2.2.0 :002 > new_person = "George"
+     => "George" 
+    2.2.0 :003 > def take_a_number(katz_deli, new_person)
+    2.2.0 :004?>     katz_deli << new_person
+    2.2.0 :005?>     number_in_line = katz_deli.index(new_person)
+    2.2.0 :006?>     puts "Welcome, #{new_person}. You are number #{number_in_line + 1} in line."
+    2.2.0 :007?>   end
+     => :take_a_number 
+    2.2.0 :008 > take_a_number(katz_deli, new_person)
+    Welcome, George. You are number 1 in line.
+     => nil 
+</code></pre>
+
+Our method take_a_number is accepting two arguements; one empty array and one string. The string is pushed into the empty array and returned in the instance variable which is called in the puts statement. Since the method array.index (which is called on an array), returns the number of the index of the argument passed in it will be 0 for the first item. Adding one will order it in plain english.
+
+---

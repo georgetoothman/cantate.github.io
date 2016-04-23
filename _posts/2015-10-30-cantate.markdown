@@ -1,0 +1,18 @@
+---
+layout: app
+title: Cantate
+category: apps
+---
+
+A Rails application to track and manage student performance data.  
+
++ Utilize Twilio Cloud Communications for voice and short message services (SMS)
++ Added validations for email format to ensure specific registrations from a single client organization
++ Styled front-end software in SCSS and Javascript
++ Installed Twilio-Ruby gem for API integration and wrote customized TwiML templates
+  
+A production version of the app is available here [here][here].    
+
+---
+
+[here]: https://cantate.herokuapp.com/

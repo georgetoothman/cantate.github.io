@@ -1,0 +1,73 @@
+---
+layout: post
+title: Learning Methods, Part II
+category: posts
+---
+
+This post is directly related to an assignment called Green Grocer on [`Learn Verified`][`Learn Verified`].  
+
+## Notes
+
+<pre><code>
+  This exercise looks at key word parameters
+
+  def add_some_numbers(one, two, three)
+    one + two + three
+  end
+
+  def add_some_numbers(one: 0, two: 0, three: 0)
+    one + two + three
+  end
+
+  you're passing in a hash as one two or three
+  # these are the default items being passed in
+  
+  def add_some_numbers({one: 0, two: 0, three: 0})
+    one + two + three
+  end
+</code></pre>
+
+Understand first that the arguments in the checkout method are keys with default values of empty hashes. You might not have seen this before, but its easy to reconstruct the hash from the ground up by setting local variables equal to different aspects of the cart and coupons hashes.
+
+# Method 1
+
+* Open a new hash when the consolidated items will be stored.
+* For each item in the cart hash, iterate and move each item to the top level of the cart.
+* Create a local variable which is assigned to the name of the first key.
+* Set up an if statement to check this food name variable. Take into consideration that now the count needs incrimented if there are multiple of that item.  If its truthy increment its count by 1.
+  * Else set up a food_details_hash local variable that is the first value from the each/do statement.
+  * Grab the :count and set the default to 1.
+  * Take the newly formatted consolidated_hash with a value of the food name from before the if statement and set it equal to the first value in an instance variable from the first line in the else section.
+* Return the consolidated hash.
+
+Note that hashes are like file cabinets, the order of the key value pair does not matter when putting an item in or retrieving it as long as you have access to the key. 
+
+# Method 2
+
+* Retrieve the item name and the number of items in the coupon hash. Store them in a local variable.
+* Iterate through the coupons, if the name of the item from the coupon hash is in the cart hash, set the :count of the cart item to one. 
+
+Note it will be helpful to have this count in another local variable so that you can cross check the number of coupons to quantity of cart items. 
+
+* In an if statement set a local variable to the desired match format “ITEM W/COUPON” 
+* Then, if (then if - it’s a new Ruby convention!) the count of items in the cart hash is greater than or equal to the count of the coupon item, increment the cart food :count by one.
+  * Otherwise (ok this is the else part) set the :cost of the coupon item to a local variable and its :clearance status to a local variable. Using these local variables and a default :count of 1, assign them inside a hash to another local variable. What is the name? What is the num? What is the count of items in the cart?
+  * The last part of this if statement set the cart hash with the reconstructed name key the value of the reconstructed default hash from the previous line.
+* For each cart check the item and the count, incrementally decrease the :num from the cart item’s food name local variable. In other words, decrease the count of the cart item by the :num in coupon (remember the coupon[:num] was turned into a local variable).
+* Lastly set the food_count to the :count of the food_name of the cart hash. If you didn’t set food_count with default value of 0 before the if/else statement, set that up. Thats the local variable which neediest to the adjusted number of cart items that have had a coupon applied.
+  
+# Method 3
+
+* Set up a each method on the cart to access the food_name key and food_info_hash values.
+* In an if statement that shows food_info_hash[:clearance] is truthy, set the :price to the :price with discount.
+
+# Method 4
+
+* You’re going to want to call Method 1 with arguments passed in of a key cart: and value cart to get access to all the items at the grocery store. Set this hash to a local variable.
+* Next up you’re setting another local variable equal to Method 2 with arguments of two key value pairs. The value of the first key cart: will be the local variable from the previous line, and coupons: can be set to the hash coupons.
+* Using the apply_clearance method with a key of cart: and value of the local variable from the line above, will allow you to set up another local variable which can be iterated through incrementing a total_price += to the food_info_hash from Method 3 with :price times :count — this is the crux of your checkout computation after all, you’re at a grocery store!
+* There is a 10% discount to orders above $100 so a good way of handling this calculation is through a ternary operator that’s going to return the total_price or the total_price * 0.9 if total_price > 100 (the value to the left of the ?) is true.
+
+---
+
+[`Learn Verified`]: https://www.learn.co/verified

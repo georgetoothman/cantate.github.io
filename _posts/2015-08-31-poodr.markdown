@@ -1,0 +1,24 @@
+---
+layout: post
+title: My Reflection on POODR
+category: posts
+---
+
+I read Practical Object Oriented Design by Sandi Metz this weekend and took a moment to reflect on the book. Sandi’s writing was clear and even exciting at times. Amidst the stellar examples (hooray for bikes and restaurants) and the logical progression of ideas, I noted a few themes which can guide subsequent readers and dialogue. 
+
+1) Strive for perfection...
+“Your applications will not be perfect but do not be discouraged. Perfection is elusive, perhaps even unreachable; this should not impede your desire to achieve it. Persist. Practice. Experiment. Imagine. Do your best work and all else will follow.” (p241)
+
+2) Personify your code...
+“This blind trust is a keystone of object-oriented design. It allows objects to collaborate without bonding themselves to context and is necessary in any application that expects to grow and change.” (p74)
+
+3) Write code for the future...
+“The purpose of object-oriented design is to reduce the cost of change.” (p85)
+
+Sprinkled throughout the book were answers to many questions I have been trying to put to rest. These were a) when and how to test (more on this in the last paragraph), b) all about the Ruby keyword “super”, and c) the difference between false and nil. 
+
+In Chapter 9, the tragedy I felt was not that book was ending (although I really did enjoy reading it), but that I am personally cautious about testing. To leave testing until the final chapter required an extra measure of determination. 
+
+Although I believe the testing section could be read on its own as an introduction to the minitest test suite, the result of handling testing in Chapter 9 alongside the code examples is that my understanding of design patterns such as inheritance, composition and modules are now actually tethered to testing.
+
+---

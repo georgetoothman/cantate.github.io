@@ -1,0 +1,17 @@
+---
+layout: app
+title: Goodli
+category: apps
+---
+
+A Rails application to measure social conscience.  
+
++ Integrated Change.org API to connect users with socially impactful petitions and events
++ Built CRUD actions to enable users to award each other with “karma points” for positive interactions
++ Improved the application’s design pattern by abstracting business logic into a service object
++ Persisted database with PostgreSQL
+
+The link to Goodli is [here][here].  
+
+---
+[here]: http://goodli.herokuapp.com/
