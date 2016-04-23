@@ -1,0 +1,23 @@
+---
+layout: app
+title: Wordies
+category: apps
+---
+
+A minimalist Rails application to determine word concordances within a given sample text.  
+
++ Refactored algorithm to meet principles of Object Oriented design, reducing code base by %50
++ Transitioned the algorithm from a command line application only onto the Ruby on Rails framework
+
+This [application][application] returns the count of each word for a sample text.  
+
+### Interesting Concordances  
+  * [Gettysburg Address][Gettysburg Address]
+    * ["we", 8], ["nation", 5] and ["here", 8]
+  * [Star Spangled Banner][Star Spangled Banner]  
+    * the word "home", appears 6 times  
+  
+---
+[Gettysburg Address]: https://en.wikipedia.org/wiki/Gettysburg_Address
+[Star Spangled Banner]: https://en.wikipedia.org/wiki/The_Star-Spangled_Banner
+[application]: http://wordies.herokuapp.com/

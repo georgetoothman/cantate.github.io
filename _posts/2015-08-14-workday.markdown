@@ -1,0 +1,29 @@
+---
+layout: post
+title: Big Data
+category: posts
+---
+
+We're one quarter through web immersion at Flatiron, and already I have seen some amazing code. Recalling Avi’s explanation of how the web is funded in our first week, I was inspired to write this and share my previous experience with creating value through code.
+
+This post covers a product patent and explains some features and my experience with Systematic Mass Normalization [SYMAN][SYMAN]. 
+
+SYMAN is ...
+
+“A method for normalizing raw titles to canonical [titles][titles]... The method includes designating a set of canonical titles, generating a set of n-grams for each canonical title, assigning a set of attributes to each n-gram, assigning a set of labels to each of the attributes, and storing the labeled canonical title and labeled n-gram in a database.”
+
+We have a [BOT][BOT]...
+
+I worked on SYMAN with the engineering team at Identified, Inc a couple years before the technology was patented and sold to Workday. My role was to ensure that the incoming data for canonical titles (schools, job functions, companies, etc) was mapped to authority titles thus powering the results of users' searches.
+
+The key to this technology was its ability to “recognize data variants having the same meaning as equivalent.” 
+
+Whether you’re adding code that powers command line applications or blogs, or what your opinion is of the size of ‘Big Data’, there is value in the Web and sometimes that code is not funded by ads.
+
+---
+
+[SYMAN]: http://pdfaiw.uspto.gov/.aiw?docid=20150032747&PageNum=1&IDKey=43636BF3D5D0&HomeUrl=http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2%2526Sect2=HITOFF%2526p=1%2526u=%25252Fnetahtml%25252FPTO%25252Fsearch-bool.html%2526r=1%2526f=G%2526l=50%2526co1=AND%2526d=PG01%2526s1=%252522systematic%252Bmass%252Bnormalization%252522%2526OS=%252522systematic%252Bmass%252Bnormalization%252522%2526RS=%252522systematic%252Bmass%252Bnormalization%252522
+
+[BOT]: https://s3-us-west-2.amazonaws.com/syman/syman-bot.png
+
+[TITLES]: https://s3-us-west-2.amazonaws.com/syman-bot/syman.png

@@ -1,0 +1,28 @@
+---
+layout: post
+title: Faraday Synopsis
+category: posts
+---
+
+1. [adventures in :coding][adventures in :coding], "Writing modular HTTP client code with Faraday"
+    * September 23, 2010
+1. [Mislov][Mislov], "Faraday: advanced HTTP requests made easy"
+    * July 11, 2011
+1. [INTRIDEA][INTRIDEA], "Faraday: One HTTP Client to Rule Them All"
+    * March 12, 2012
+1. [CODEPLEASE][CODEPLEASE], "FARADAY: YOUR NEW BEST FRIEND"
+    * April 11, 2013
+1. [Engine Yard][Engine Yard], "Wrapping Your API In A Custom Ruby Gem"
+    * September 25, 2014
+
++ [Rick Olson][Rick Olson] aka Technoweenie, "One HTTP Handler to rule them all"
+    * Creator of the Faraday Gem
+    * December 31, 2011
+
+---
+[CODEPLEASE]: https://codeplease.wordpress.com/2013/04/11/faraday-your-new-best-friend/
+[INTRIDEA]: http://www.intridea.com/blog/2012/3/12/faraday-one-http-client-to-rule-them-all
+[adventures in :coding]: http://adventuresincoding.com/2010/09/writing-modular-http-client-code-with-faraday/
+[Mislov]: http://mislav.uniqpath.com/2011/07/faraday-advanced-http/
+[Engine Yard]: https://blog.engineyard.com/2014/wrapping-your-api-in-a-ruby-gem
+[Rick Olson]: http://techno-weenie.net/2013/10/21/http-handler-pipeline/

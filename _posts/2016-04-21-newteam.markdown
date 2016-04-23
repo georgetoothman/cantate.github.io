@@ -1,0 +1,21 @@
+---
+layout: post
+title: What we’ve been working on at St. John’s 
+category: posts
+---
+
+I’ve been a business consultant at St. John’s for about two months. We have been working on some cool projects to improve the efficiency and the style of their weekly publications. During this project I have seen how drastic changes in filing structures and organization can reduce drag and redundancy in each week’s work.    
+
+There have been other things too. Beginning new ambitious projects are never simple, yet with the right team and tools more can be accomplished than without regular refurbishments. This is as true with text and HTML as it is with programming.    
+
+[Publisher][Publisher] is a useful text editing software that does not require the use of programatic macros to create the stylizations and font variations. There is even a developer tab on the suite of [Microsoft][Microsoft] products for performing the same qualitative edits on a document or piece of scripture.    
+
+The team here at St. John’s was able to increase their communications remotely through the free combined use of [Dropbox][Dropbox] and [Google Drive][Google Drive].    
+
+Hopefully this helps nudge your team a little further ahead in its operations and teamwork.    
+  
+---
+[Publisher]: https://products.office.com/en-us/publisher
+[Dropbox]: https://www.dropbox.com/
+[Google Drive]: https://www.google.com/drive/
+[Microsoft]: https://www.microsoft.com/en-us/

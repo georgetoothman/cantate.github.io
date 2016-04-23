@@ -1,0 +1,44 @@
+---
+layout: post
+title: Methods, Part II
+category: posts
+---
+<pre><code>
+  class Anagram
+    attr_accessor :diaper, :detector
+
+    def initialize(word)
+      @word = word
+    end
+
+    def match(array)
+      # split the @word and the first item of the array
+      # order them
+      # compare the new ordered array with == 
+      match = []
+      array.each do |word|
+        new_array = word.split("")
+        sorted_new_array = new_array.sort
+        compare_to = @word.split("")
+        sorted_campare_array = compare_to.sort
+        if sorted_new_array == sorted_campare_array
+          match << word
+          match
+        else
+          nil
+        end
+      end
+      match
+    end
+  end
+</code></pre>
+
+This is a class method which is initialized with a word with `getters` and `setters` for arrays of other words. Pass it in to an argument to see an anagramed match.
+
+Since I began programming, methods have seemed to be slightly illusive (they are becomming less so now!).
+
+Mostly with programming you are dealing with many dependencies. Dependencies on other code working, tests passing, database connections, etc. 
+
+A method and the linear flow of data through it is neat break from these aspects of developing.
+
+---

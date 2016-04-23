@@ -1,0 +1,17 @@
+---
+layout: post
+title: 2016 Git-merge Conf
+category: posts
+---
+
+There were a few highlights to the program at this years’ Git-Merge conference. The most exciting presentation was on the Git [LFS][LFS] extension. A thorough review of the mechanics was presented with a few nice visuals and analogies. I don’t remember the point of the teddy bear slide, but the presentation was steady and the message consistent - there is no easy was to make Large File Systems work.
+
+Who ever thought of the used book section at a university store for text books as being the most prevalent real world example of the data backup system Git LFS uses with the Github and [Enterprise][Enterprise] remote servers (rhetorical question)...
+
+I personally was confused about the purpose of the new visualization tools in the presentation by the Axosoft/GitKraken duo. I feel as though there is sufficiency built into Github branching - this subway-like system of tracking branch merges and checkouts has character. The conference swag even presented the quintessentially colored branching matrix on printed t-shirts.
+
+There were supposedly networking events this evening near the Flatiron Building, but I spoke to another fella who had commuted and the evening closed out like many before it. On a train ride home.
+
+---
+[LFS]: https://git-lfs.github.com/
+[Enterprise]: https://enterprise.github.com/home

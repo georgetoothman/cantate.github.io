@@ -1,0 +1,20 @@
+---
+layout: post
+title: Methods, Part I
+category: posts
+---
+
+<pre><code>
+  def square_array(array)
+      new_array = []  
+        array.each do |num|
+            square = num * num
+            new_array << square
+        end
+      new_array
+  end
+</code></pre>
+
+This is a method which returns the square for any set of numbers passed in as an array. By calling square_array(array) ruby is iterating over each number (as num), multiplying the number by itself and setting it to a new variable called square. Square is then passed into the new_array which was instantiated outside of the each iterator. We know that this will hold the new square integer because of `variable scope`. From within the array.each method Ruby has access to new_array. new_array is holding each integer until the each method finishes. Following the completion of the each method, new_array will return the new_array which now holds all square integers from the method.
+
+---

@@ -1,0 +1,23 @@
+---  
+layout: post
+title: A Content Management System (CMS) Scares Me Too
+category: posts
+---  
+
+Did you ever have the experience of eagerly purchasing a fresh new domain name for the purpose of launching your own enterprise? You may have found it particularly cumbersome.  
+
+Once the excitement of your new idea dies down and the Domain Name Service providers like [GoDaddy][GoDaddy]
+or [Yourmembership][Yourmembership] have confused you with their ever growing number of package deals and service tier levels, you may not be readily muttering the words “scale” or “pivot.”
+
+These packaged web servers are what the industry refers to as [Content Management Systems][Content Management Systems] and they can be useful in the same way an all-in-one car wash puts your vehicle on the conveyer belt, scrubs it, and automatically dries it with air jets. In my own opinion, they’re missing a bunch of nooks and gloss over the parts that can really shine.  
+
+Now that programming languages are more abstracted — ++ Matz — the modern web developer can rewrite every CMS in a fraction of the time it takes to manage a long standing CMS account or constantly iterate within the confines of the so-called platform de jure. 
+
+I needed to close this post out with something pithy, so thanks for the entry, Joel S. “Whats the best thing about Switzerland? ...The flag is big plus.”    
+
+---  
+[GoDaddy]: https://www.godaddy.com/
+[Yourmembership]: http://www.yourmembership.com/?ktw=%2Byourmembership&gclid=CJaMwabp6csCFcdehgod5J8Lww
+[Content Management Systems]: https://en.wikipedia.org/wiki/Content_management_system
+[`dot-com`]: https://en.wikipedia.org/wiki/Dot-com_bubble
+[Confreaks]: http://confreaks.tv/events/rubyconf2012

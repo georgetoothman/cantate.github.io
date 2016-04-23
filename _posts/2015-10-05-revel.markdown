@@ -1,0 +1,25 @@
+---  
+layout: post
+title: Everyone Was An Imposter Once
+category: posts
+---  
+
+A lot people talk about `imposter syndrome` at code boot camps. I did. It concerned me. This is what I used as motivation and how I think about it now.  
+
+Jeff Casimir, Executive Director, Turing School of Software & Design (Denver, CO) spoke at Flatiron in early October, 2015. He advised new programmers to confront this sensation by asking good questions. Some of the pointers below were his recommendations to those of us present at the AMA.  
+
+It makes new programmers uncomfortable to believe they can garner their title whilst a student. Imposter syndrome is worth addressing because if you are passionate about what it is that you do, you have fundamentally agreed to leave your comfort zone. That path of challenges and feelings at some point will flip to become the foundation that you rely on.  
+  
+Two tips to keep you positive if you're feeling this way -- my advice is, DONT. It'll slow you down. But if the feelings persist, consider these words from someone who was in your shoes:  
+  
+  * @ForbesUnder30: "Imposter syndrome is a byproduct of knowing  
+    that `success is limitless`." - @bingchen on staying motivated  
+    post-30U30 honor #under30summit  
+  
+  * Be good at asking questions. Specifically, do...  
+  1) give context  
+  2) state what you were expecting to happen  
+  3) state what you observed  
+  4) find the inputs or controls related to the issue at hand  
+
+---

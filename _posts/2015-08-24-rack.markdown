@@ -1,0 +1,42 @@
+---
+layout: post
+title: Rack in the Mud
+category: posts
+---
+<pre><code>
+  class App
+    def call(env)
+      request = Rack::Request.new(env)
+      if request.path == '/cocktails'
+        cocktails = Cocktail.all
+        template = File.read('app/views/cocktails/index.html.rb')
+        result = ERB.new(template).result(binding)
+        Rack::Response.new(result)
+      elsif request.path == '/ingredients'
+        ingredients = Ingredient.all
+        template = File.read('app/views/ingredients/index.html.erb')
+        result = ERB.new(template).result(binding)
+        Rack::Response.new(result)
+      else
+        Rack::Response.new("not found", 404)
+      end
+    end
+  end
+
+  use Rack::ContentType
+  run App.new
+</code></pre>
+
+What I learned today about rack is a remarkable part of the world wide web. I wanted to put a stick in the mud, rack in the mud if you will, to mark this stage of my understanding.
+
+Rack is a standardized format of tools used to manage the client/request, server/response behavior that is layered ontop of the TCP/IP infrastructure as HTTP. The server uses a specific rack method (call) to trigger the hash that consists of a request type (post/get), header (/page), and IP address of the client. The web server that issues the response of the client request is seperate from the DNS serviers that are working to associate the IP addresses of the client and web server.  
+
+![team-foo-tang](https://s3-us-west-2.amazonaws.com/foo-tang-rack/IMG_0676.JPG)  
+
+Once matched by the DNS server, a rack request is sent from the client to the web servers and what is passed back are the attributes in the form of a hash which is an object transformed from a rack hash into something the browser can understand. These are the TCP/IP packets of information. The packets are delivered incrementally all the while communicating with the client.
+
+If there as an issue communicating the packets, an error is conveyed as a standardized 100 - 500 error. Fun note -- check out error [418][418].
+
+---
+
+[418]: http://www.google.com/teapot

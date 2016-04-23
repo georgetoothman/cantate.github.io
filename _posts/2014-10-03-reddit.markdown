@@ -1,0 +1,11 @@
+---
+layout: app
+title: Reddit
+category: apps
+---
+
+I wrote this [Reddit Clone][Reddit Clone] with instruction from Launch Academy, formerly known as [Tealeaf Academy][Tealeaf Academy].
+
+---
+[Reddit Clone]: http://lit-sands-6041.herokuapp.com/
+[Tealeaf Academy]: https://launchpass.launchacademy.com/online_intensive
