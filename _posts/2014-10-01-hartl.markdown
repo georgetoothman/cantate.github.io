@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Twitter
-category: apps
+category: posts
 ---
 
 I wrote this [Twitter Clone][Twitter Clone] with instruction from the Ruby on Rails Tutorial by Michael Hartl.

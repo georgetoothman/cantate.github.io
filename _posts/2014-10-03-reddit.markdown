@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Reddit
-category: apps
+category: posts
 ---
 
 I wrote this [Reddit Clone][Reddit Clone] with instruction from Launch Academy, formerly known as [Tealeaf Academy][Tealeaf Academy].

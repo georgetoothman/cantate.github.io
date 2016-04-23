@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Wordies
-category: apps
+category: posts
 ---
 
 A minimalist Rails application to determine word concordances within a given sample text.  

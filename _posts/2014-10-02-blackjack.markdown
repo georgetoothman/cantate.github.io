@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Blackjack
-category: apps
+category: posts
 ---
 
 I wrote this [Online Blackjack][Online Blackjack] game with instruction from Launch Academy, formerly known as [Tealeaf Academy][Tealeaf Academy].

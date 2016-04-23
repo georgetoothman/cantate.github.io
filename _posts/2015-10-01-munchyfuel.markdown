@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: MunchyFuel
-category: apps
+category: posts
 ---
 
 A Rails application to connect users with high quality pictures of local food. 

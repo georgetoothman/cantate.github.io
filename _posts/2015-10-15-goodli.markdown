@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Goodli
-category: apps
+category: posts
 ---
 
 A Rails application to measure social conscience.  

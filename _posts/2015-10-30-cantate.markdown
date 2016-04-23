@@ -1,7 +1,7 @@
 ---
-layout: app
+layout: post
 title: Cantate
-category: apps
+category: posts
 ---
 
 A Rails application to track and manage student performance data.  
