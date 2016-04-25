@@ -2,8 +2,7 @@ title: Web 3 Dot 0
 email: get@cantate.co
 description: > # this means to ignore newlines until "baseurl:"
   Web 3 Dot 0 is an ambitious project defining the next version of
-  the World Wide Web. The blog is maintained by me, George E. Toothman.
-  I am the founder of a computer and data-processing company. 
+  the World Wide Web. The blog is maintained by me, George E. Toothman. 
 baseurl: ""
 url: "http://cantate.github.io"
 twitter_username: georgetoothman
