@@ -8,3 +8,5 @@ url: "http://cantate.github.io"
 twitter_username: georgetoothman
 github_username:  georgetoothman
 markdown: kramdown
+gems:
+	- jekyll-sitemap
