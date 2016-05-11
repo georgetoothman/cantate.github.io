@@ -1,9 +1,9 @@
-title: "Cantate Dot Co"
+title: Cantate Dot Co
 email: get@cantate.co
 description: > # this means to ignore newlines until "baseurl:"
-	"Web 3 Dot 0 is an ambitious project defining the next 
-	version of the World Wide Web. My work is for a business 
-	offering web development, computer training and mgmt consulting.""
+	Web 3 Dot 0 is an ambitious project defining the next   
+	version of the World Wide Web. My work is for a business   
+	offering web development, computer training and mgmt consulting.
 baseurl: ""
 url: "http://georgetoothman.github.io"
 twitter_username: georgetoothman
