@@ -1,9 +1,9 @@
-title: Web 3 Dot 0
-email: get@cantate.co
+title: http://cantate.co
+email: get@cantate dot co
 description: > # this means to ignore newlines until "baseurl:"
-  Web 3 Dot 0 is an ambitious project defining the next version of
-  the World Wide Web. The blog is maintained by me, George E. Toothman,
-  with Github Pages.
+	This blog is part of an ambitious project defining the next 
+	version of the World Wide Web. I write here, and work there ~>
+	Cantate Dot Co., Inc. 
 baseurl: ""
 url: "http://georgetoothman.github.io"
 twitter_username: georgetoothman
