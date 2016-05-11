@@ -128,7 +128,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 74)
+  github-pages
+  jekyll-seo-tag
   json
 
 BUNDLED WITH
