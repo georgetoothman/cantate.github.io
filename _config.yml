@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Web 3 Dot 0 is an ambitious project defining the next version of
   the World Wide Web. The blog is maintained by me, George E. Toothman. 
 baseurl: ""
-url: "http://cantate.github.io"
+url: "http://georgetoothman.github.io"
 twitter_username: georgetoothman
 github_username:  georgetoothman
 markdown: kramdown
