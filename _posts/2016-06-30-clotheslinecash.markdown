@@ -10,4 +10,4 @@ I began to take interest in the elite jobs of venture funding while working with
  
 Since then, my own feelings on the subject of VC funding have changed. What amount of equity are the lowest investors earning? How far removed is the founders' vision from that of the investors'? Is VC a rigmarole?
  
-The next big tech boom isn't going to appear from anywhere outside of the current VC ecosystem. Like most things, the decision to invest is less a matter of finding the so-called "black swan event" (see Nassim Teleb's book of the same name, or read the article [here](http://www.nytimes.com/2007/04/22/books/chapters/0422-1st-tale.html), than it is about stitching together the next line of cloth.
+The next big tech boom isn't going to appear from anywhere outside of the current VC ecosystem. Like most things, the decision to invest is less a matter of finding the so-called "black swan event" (see Nassim Teleb's book of the same name, or read the article [here](http://www.nytimes.com/2007/04/22/books/chapters/0422-1st-tale.html)), than it is about stitching together the next line of cloth.
