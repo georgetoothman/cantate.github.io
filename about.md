@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**Early Life and Family**
+**Early Life and Family**  
 I grew up in a small town south of Pittsburgh, PA. 
 
 **Going Away for School**  
