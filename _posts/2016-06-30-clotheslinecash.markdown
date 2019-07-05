@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clothes Lines and VC
+title: Thoughts on VC
 category: posts
 ---
  
