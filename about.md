@@ -21,4 +21,4 @@ I was offered an opportunity to learn more about computer programming, and after
 I am inspired by music and athletes and have been involved with both on an amateur level throughout my life. I’ve competed internationally as an oarsman and triathlete and continue to sing on pitch *pretty frequently*.  
 
 **Contact Me**  
-I am living in Connecticut, a wonderful state, which was once home to a great amount of industry.
+I live in Southwestern Pennsylvania.
